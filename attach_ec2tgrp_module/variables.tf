@@ -2,6 +2,6 @@ variable "target_group_arn" {
   
 }
 
-variable "target_id" {
+variable "instance_ids" {
   
 }
