@@ -1,4 +1,4 @@
-resource "aws_target_group" "tg_lb" {
+resource "aws_lb_target_group" "tg_lb" {
     name = var.name
     port = var.port
     protocol = var.protocol
